@@ -80,7 +80,7 @@
     margin-bottom: 24px;
 }
 
-/* CSS Layout 3 practice */
+/* CSS Layout 3 & 4 practice */
 
 .container3 {
     border: 4px solid lightgray;
@@ -88,7 +88,7 @@
     display: flex;
 }
 
-.row3 {
+.row3 { /* How to center and max width a good layout */
     width: 100%;
     max-width: 600px;
     display: flex;
@@ -107,6 +107,16 @@
 }
 
 .box3-small {
+    height: 50px;
+}
+
+.tiny3-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3-tiny {
+    width: 30%;
     height: 50px;
 }
 
